@@ -9,3 +9,19 @@
   color: #274C5B;
 }
 textarea, input { outline: none; }
+.burger{
+  display: none;
+}
+@media only screen and (max-width: 1200px){
+.nav{
+  display: none;
+}
+.burger{
+  display: block;
+}
+}
+@media only screen and (max-width: 750px){
+  .input{
+    display: none;
+  }
+  }
