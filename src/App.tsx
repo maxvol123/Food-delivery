@@ -17,14 +17,15 @@ function App() {
   <a className="" href="/">Projects</a>
   <a className="" href="/">News</a>
 </nav>}
-<header className="h-[204px] flex justify-around pt-3">
+<div className="h-screen text-xl">
+<header className="h-[100px] flex justify-around pt-3">
 <img className="h-[53.72px]" src={Logo} alt=""/>
 <div className="pt-5 burger" onClick={()=>Burger()}>
     <div className="bg-gray-500 h-1 w-8 rounded mb-0.5"></div>
     <div className="bg-gray-500 h-1 w-8 rounded mb-0.5"></div>
     <div className="bg-gray-500 h-1 w-8 rounded mb-0.5"></div>
   </div>
-<nav className="flex gap-x-5 pt-4 roboto nav">
+<nav className="flex gap-x-5 pt-4 roboto nav text-xl">
   <a className="" href="/">Home</a>
   <a className="" href="/">About</a>
   <a className="" href="/">Pages</a>
@@ -41,6 +42,15 @@ function App() {
   <div className="ml-1 py-[14.4px] roboto">Cart(0)</div>
 </div>
 </header>
+<main className="main h-full">
+<div className="ml-[10%] pt-[10%]">
+<div className="yellowtail text-[#68A47F] text-4xl ">100% Natural Food</div>
+<div className="roboto text-7xl mt-2 w-[500px]">Choose the best healthier way of life</div>
+<button className="bg-[#EFD372] px-10 py-7 roboto rounded-2xl mt-5">Explore Now</button>
+</div>
+
+</main>
+</div>
 </>
   );
 }
