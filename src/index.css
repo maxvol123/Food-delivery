@@ -5,7 +5,6 @@
 .roboto{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 700;
-  color: #274C5B;
 }
 textarea, input { outline: none; }
 .burger{
@@ -16,6 +15,12 @@ textarea, input { outline: none; }
 }
 .yellowtail{
   font-family: 'Yellowtail', cursive;
+}
+.img1{
+  background: url(./img/Image1.png) no-repeat;
+}
+.img2{
+  background: url(./img/Image2.png) no-repeat;
 }
 @media only screen and (max-width: 1200px){
 .nav{
